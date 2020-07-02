@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    overflow-x: hidden;
+    background-color: #00d2d3; 
+    color: #222f3e;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+#logo{
+    height: 79px;
+    width: 107px;
+}
+
+h1{
+    text-align: center;
+    font-size: 400%;
+}
+button{
+    float: right;
+    margin: 10px 20px;
+}
+.col{
+    margin: 10px 20px;
+}
+
+.categorybox{
+    display: inline-block;
+    margin: 5px 10px;
+}
+#sec{
+    height: 300px;
+    width: 227px;
+}
+
+#footer{
+    font-size: 250%;  
+}
+
+.footer{
+    margin: 0px 40%;
+}
+
+.main{
+    margin: 0px 0px;
+}
+
+.row{
+    padding: 5px;
+    margin: 20px 0px;
+}

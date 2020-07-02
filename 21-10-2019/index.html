@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="#" onsubmit="return evaluateForm();" method="post">
+      Password : <input type="password" name="" id="txtpass" value=""> <br>
+      Confirm Password : <input type="password" id="txtpass2" name="" value=""><br>
+      <hr>
+      Mobile : <input type="tel" id="txtphn" name="" value=""><br>
+      E-mail : <input type="text" id="txtemail" name="" value=""><br>
+      <hr>
+      <input type="submit" name="" value="Submit">
+    </form>
+
+
+    <script type="text/javascript">
+      function evaluateForm(){
+        var phoneno = /^\d{10}$/;
+        if(document.getElementById('txtpass').value!=document.getElementById('txtpass2').value){
+          alert("Passwords do not match!!");
+          return false;
+        }
+        if((document.getElementById('txtphn').value.match(phoneno))){
+
+        }
+        else{
+          alert("Invalid phoneno!!");
+          return false;
+        }
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.getElementById('txtemail').value)){
+
+        }
+        else{
+          alert("invalid email!!");
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>

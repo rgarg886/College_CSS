@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    margin: 30px;
+    background: url('../img/background.jpg');
+	background-size: cover;
+    overflow-y: hidden;
+}
+
+.main{
+    margin: 5% 10%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 300%;
+    font-family: 'Montserrat',Calibri;
+    font-weight: 50%;
+    transition: 0.5s;
+}
+
+h1:hover{
+  font-size: 500%;
+  background-color: #f1f1f1;
+}
+
+.categorybox{
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin: 0px 90px;
+    border-radius: 10px;
+
+	transition: 0.5s all ease-in-out;
+}
+
+.categorybox:hover{
+	opacity: 1.5;
+  font-size: 140%;
+}
+
+.image{
+    width: 300px;
+}
+
+.row{
+    font-family: 'Montserrat',Calibri;
+    text-align: center;
+    font-size: 200%;
+    background: none;
+}
